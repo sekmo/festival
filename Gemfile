@@ -41,7 +41,6 @@ group :development do
   gem "erb_lint", require: false
   gem "htmlbeautifier"
   gem "listen"
-  gem "rack-mini-profiler"
   gem "web-console"
 end
 
