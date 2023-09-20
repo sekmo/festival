@@ -31,6 +31,7 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
     "build:js": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
     "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css",
     "failure:js": "rm ./app/assets/builds/application.js && rm ./app/assets/builds/application.js.map",
