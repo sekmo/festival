@@ -9,6 +9,8 @@ gem "bootsnap", require: false
 gem "cssbundling-rails"
 gem "date_by_example"
 gem "devise"
+# added by flyctl launch
+gem "dockerfile-rails", ">= 1.5", :group => :development
 gem "jbuilder"
 gem "jsbundling-rails"
 gem "kredis"
@@ -17,6 +19,9 @@ gem "propshaft"
 gem "puma", "~> 5.0"
 gem "rails", "~> 7.0.0"
 gem "redis", "~> 4.0"
+# added by flyctl launch
+gem "sentry-ruby", "~> 5.11"
+gem "sentry-rails", "~> 5.11"
 gem "simple_form"
 gem "simple_form-tailwind"
 gem "stimulus-rails"
