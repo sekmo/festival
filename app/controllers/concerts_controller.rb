@@ -16,6 +16,9 @@ class ConcertsController < ApplicationController
 
   # GET /concerts/1 or /concerts/1.json
   def show
+    if params[:inline]
+      render @concert
+    end
   end
 
   # GET /concerts/new
