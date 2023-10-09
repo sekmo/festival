@@ -4,7 +4,7 @@
 
 import { application } from "./application"
 
-import FavoriteToggleController from "./favorite_toggle_controller.js"
+import FavoriteToggleController from "./favorite_toggle_controller.ts"
 application.register("favorite-toggle", FavoriteToggleController)
 
 import HelloController from "./hello_controller.ts"
