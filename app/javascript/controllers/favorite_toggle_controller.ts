@@ -9,15 +9,13 @@ export default class FavoriteToggleController extends Controller {
   static values = { visible: Boolean }
   visibleValue: boolean
 
-  connect(): void {
+  visibleValueChanged(): void {
     this.updateHiddenClass()
     this.updateText()
   }
 
   toggle(): void {
     this.flipState()
-    this.updateHiddenClass()
-    this.updateText()
   }
 
   flipState(): void {
